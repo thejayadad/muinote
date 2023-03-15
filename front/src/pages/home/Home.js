@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Box, Stack, Typography } from "@mui/material";
 import Category from "../../components/category/Category";
 import Notes from "../../components/notes/Notes";
-
+import NoteList from "../../components/noteList/NoteList";
 const Home = () => {
   return (
     <Stack sx={{ flexDirection: { sx: "column", md: "row" } }}>
@@ -16,7 +16,7 @@ const Home = () => {
     <Typography variant="h4" fontWeight="bold" mb={2} sx={{ color: "white" }}>
     <span style={{ color: "#FC1503" }}>Notes</span>
     </Typography>
-    <Notes />
+    <NoteList />
     </Box>
     </Stack>
   )
