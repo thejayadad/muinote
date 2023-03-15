@@ -15,7 +15,7 @@ const Notes = () => {
       </Link>
           <CardContent sx={{ backgroundColor: "#1E1E1E", height: '106px' }}>
         <Link to="/" >
-        <Typography variant="subtitle1" fontWeight="bold" color="#FFF">
+        <Typography variant="subtitle1" fontWeight="bold" color="#FFF" >
                 Note Title
         </Typography>
         </Link>
